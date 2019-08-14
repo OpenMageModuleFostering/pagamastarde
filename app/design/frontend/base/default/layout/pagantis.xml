@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <pagantis_pagantis_redirect>
+		<reference name="content">
+			<block type="pagantis_pagantis/redirect" name="redirect" template="pagantis/redirect.phtml"></block>
+		</reference>
+	</pagantis_pagantis_redirect>
+  <default>
+      <reference name="before_body_end">
+          <block type="core/text" name="mapcontrol.script.block">
+             <action method="setText"><text><![CDATA[<script src="https://cdn.pagamastarde.com/js/pmt-simulator/latest/js/pmt-simulator.min.js"></script>]]></text></action>
+         </block>
+      </reference>
+  </default>
+</layout>

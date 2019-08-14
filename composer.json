@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/PagaMasTarde",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Modulo de Magento para abilitar la pasarela de pago Pagantis en Magento.",
+    "authors": [
+    {
+        "name": "PagaMasTarde",
+        "email": "afatsini@digitalorigin.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
